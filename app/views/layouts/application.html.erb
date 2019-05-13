@@ -79,11 +79,7 @@
       </div>
     </nav>
   <div class="container-fluid bg-1 text-center">
-    <% flash.each do |name, msg| %>
-      <ul>
-        <li><%= msg %></li>
-      </ul>
-    <% end %>
+    <%= render 'layouts/messages' %>
       <%= yield %>
 </div>
   </body>
