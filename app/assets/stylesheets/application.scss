@@ -1,0 +1,53 @@
+$theme_colors: (
+  light: #08088a
+);
+
+@import "bootstrap";
+
+#logo{
+  float:left;
+  font-size:1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color: #fff;
+  text-decoration:none;
+}
+
+.jumbotron {
+  background: url(dogs-920x920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+
+}
+
+footer {
+  margin-top:45px;
+  padding-top:10px;
+  border-top:1px solid #eaeaea;
+  color:#777;
+}
+
+footer a:hover {
+  color:#222;
+}
+
+footer small {
+  float:left;
+}
+
+footer ul{
+  float:right;
+  list-style:none;
+}
+
+footer ul li {
+  float:left;
+  margin-left:15px;
+}
