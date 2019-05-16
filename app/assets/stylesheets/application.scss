@@ -1,5 +1,5 @@
 $theme_colors: (
-  // light: #08088a
+  light: #007849
 );
 
 @import "bootstrap";
@@ -22,7 +22,6 @@ $theme_colors: (
   background: url(dogs-920x920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   height: 600px;
 
 }
