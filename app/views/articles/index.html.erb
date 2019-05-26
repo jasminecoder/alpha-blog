@@ -10,7 +10,7 @@
           </div>
           <div class="card-title border-top pt-2">
             <%= truncate(article.description, length: 100) %>
-            <div class="article-meta-details border-top mt-3 text-muted">
+            <div class="border-top mt-3 text-muted">
               <small>created by: <%= article.user.username if article.user %>,
                      <%= time_ago_in_words(article.created_at) %> ago,
                      last updated: <%= time_ago_in_words(article.updated_at) %> ago
