@@ -1,4 +1,7 @@
 <h3 class="text-center">All Alpha Bloggers</h3>
+<div class="d-flex justify-content-center">
+  <%= will_paginate @articles, list_classes:%w(pagination), previous_label:"Previous", next_label: "Next" %>
+</div>
 <% @users.each do |user| %>
 
   <ul class="text-center list-unstyled mb-4">
@@ -14,3 +17,6 @@
  </ul>
 
 <% end %>
+<div class="d-flex justify-content-center">
+  <%= will_paginate @articles, list_classes:%w(pagination), previous_label:"Previous", next_label: "Next" %>
+</div>

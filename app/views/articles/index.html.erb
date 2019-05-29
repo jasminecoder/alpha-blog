@@ -1,3 +1,8 @@
 <h4 class="text-center">Listing all articles</h4>
-
+<div class="d-flex justify-content-center">
+  <%= will_paginate @articles, list_classes:%w(pagination), previous_label:"Previous", next_label: "Next" %>
+</div>
 <%= render 'article', obj: @articles %>
+<div class="d-flex justify-content-center">
+  <%= will_paginate @articles, list_classes:%w(pagination), previous_label:"Previous", next_label: "Next" %>
+</div>
