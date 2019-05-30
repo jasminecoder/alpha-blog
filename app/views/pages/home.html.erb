@@ -1,7 +1,9 @@
 
 <div class="text-center pt-3">
 <h1>ALPHA BLOG</h1>
-  <%= link_to "Sign up now", "#", class: "btn btn-primary btn-lg" %>
+  <% if !logged_in? %>
+  <%= link_to "Sign up now", signup_path, class: "btn btn-primary btn-lg" %>
+  <% end %>
 <div class="jumbotron text-center mt-3">
 </div>
 </div>
